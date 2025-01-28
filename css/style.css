@@ -1712,11 +1712,11 @@ select:-webkit-autofill:focus {
 }
 
 .form-control-newform.valid {
-  border-color: #F6921E;
+  border-color: #047f14;
 }
 
 .form-control-newform.invalid {
-  border-color: rgb(64, 64, 64);
+  border-color: #f6921e;
 }
 
 
