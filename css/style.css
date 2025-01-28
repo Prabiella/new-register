@@ -1612,7 +1612,7 @@ select:-webkit-autofill:focus {
 
 /* Cambiar a verde cuando sea válido */
 .valid + .form-label {
-  color: green!important; /* Verde si es válido */
+  color: rgb(11, 208, 11)!important; /* Verde si es válido */
 }
 
 
