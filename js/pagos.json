@@ -1,0 +1,342 @@
+[
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/hsbc.svg",
+        "alt": "HSBC"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/bbva.svg",
+        "alt": "BBVA"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/telecom.svg",
+        "alt": "TELECOMM"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/ley.svg",
+        "alt": "LEY"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/aurrera.svg",
+        "alt": "Bodega aurrera"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/walmart.svg",
+        "alt": "walmart"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/superama.svg",
+        "alt": "Superamea"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/sams_club.svg",
+        "alt": "Sams Club"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/suburbia.svg",
+        "alt": "Suburbia"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/quiubo.svg",
+        "alt": "Qiubo"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/extra.svg",
+        "alt": "extra"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/benavides.svg",
+        "alt": "Farmacia benavides"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/intercam.svg",
+        "alt": "Intercam"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/netpay.svg",
+        "alt": "NetPay"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/redefectiva.svg",
+        "alt": "Red efectiva"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/fundacion_donde.svg",
+        "alt": "Fundación dondé"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/tresb.svg",
+        "alt": "3B"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/kiosko.svg",
+        "alt": "Kiosko"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/woolworth.svg",
+        "alt": "Wolworth"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/neto.svg",
+        "alt": "Don Neto"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/alsuper.svg",
+        "alt": "al super"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/yastas.svg",
+        "alt": "Ya stas"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/waldos.svg",
+        "alt": "Waldos"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/punto-recarga.svg",
+        "alt": "Punto recarga"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/fasti.svg",
+        "alt": "Fasti"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/AirPark.svg",
+        "alt": "Air Pack"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/six.svg",
+        "alt": "Six"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/ldi.svg",
+        "alt": "LDI"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/sanpablo.svg",
+        "alt": "San Pablo"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/farma-pronto.svg",
+        "alt": "Farma Pronto"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/mtc.svg",
+        "alt": "MTC"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/oxxo.svg",
+        "alt": "OXXO"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/asturiano.svg",
+        "alt": "El asturiano"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/seven.svg",
+        "alt": "Seven Eleven"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/ganamas.svg",
+        "alt": "Gana Más"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/yomp.svg",
+        "alt": "Yomp"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/barri.svg",
+        "alt": "Barri"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/dinex.svg",
+        "alt": "DINEX"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/farma02.svg",
+        "alt": "Frama"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/inter-express.svg",
+        "alt": "Intercambio express"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/maxi.svg",
+        "alt": "MAXI"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/circlek.svg",
+        "alt": "Circulo K"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/cecom.svg",
+        "alt": "CECOM"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/super-kompas.svg",
+        "alt": "Super Kompras"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/rappid.svg",
+        "alt": "Rappi"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/gestopago.svg",
+        "alt": "Gestopago"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/farmaAhorro.svg",
+        "alt": "Farmacia del Ahorro"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/superiberia.svg",
+        "alt": "Super Iberia"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/alsuper.svg",
+        "alt": "Albo"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/hibye.svg",
+        "alt": "HiBye"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/aki.svg",
+        "alt": "Aki"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/merza.svg",
+        "alt": "Merza"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/grupoMexico.svg",
+        "alt": "Grupo México"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/willis.svg",
+        "alt": "Willis"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/delsol.svg",
+        "alt": "Del Sol"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/ya-ganastes.svg",
+        "alt": "Ya ganaste"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/botica-central.svg",
+        "alt": "Botica Central"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/paga-aqui.svg",
+        "alt": "Paga Aquí"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/cash.svg",
+        "alt": "Cash"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/systienda.svg",
+        "alt": "Systienda"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/trasnfere.svg",
+        "alt": "Transfer"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/actinver.svg",
+        "alt": "Actinver"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/yza.svg",
+        "alt": "YZA"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/farmacon.svg",
+        "alt": "FarmaCon"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/moderna.svg",
+        "alt": "Moderna"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/mispagos.svg",
+        "alt": "Mis pagos"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/cuenca.svg",
+        "alt": "Cuenca"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/undostres.svg",
+        "alt": "Un dos Tres"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/bxt.svg",
+        "alt": "BXT"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/bacoppel.svg",
+        "alt": "Bancoppel"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/rico.svg",
+        "alt": "Rico Super tienda"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/lamasbarata.svg",
+        "alt": "Framacia la mas barata"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/mexicana_abarrotes.svg",
+        "alt": "Mexicana de abarrotes"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/mercadia.svg",
+        "alt": "Merca día"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/724.svg",
+        "alt": "7/24"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/lacomer.svg",
+        "alt": "La commer"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/fresko.svg",
+        "alt": "Fresko"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/sumesa.svg",
+        "alt": "Summesa"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/citymarket.svg",
+        "alt": "City Market"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/via.svg",
+        "alt": "Vía"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/logrand.svg",
+        "alt": "Logrand"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/soriana-express.svg",
+        "alt": "Sorian Express"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/soriana-mercado.svg",
+        "alt": "Sorian Marcado"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/soriana-super.svg",
+        "alt": "Sorian Super"
+    },
+    {
+        "img_src": "https://d31nz91qboyide.cloudfront.net/mvshub/lugares_pago/super-city.svg",
+        "alt": "Super City"
+    }
+]

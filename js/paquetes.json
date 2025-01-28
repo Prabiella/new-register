@@ -1,0 +1,534 @@
+{
+    "categorias": [
+      {
+        "nombre": "Series y Películas",
+        "canales": [
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/star_channel.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/star_channel.jpg",
+                "nombreCanal": "STAR CHANNEL",
+                "descripcion": "El hogar de Los Simpson en la televisión, disfruta de Modern Family, Bones y películas de animación adictiva y blockbuster, con varios géneros dirigidos para toda la familia."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/universal.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/universal.jpg",
+                "nombreCanal": "UNIVERSAL",
+                "descripcion": "Extraordinarios personajes, destinos e historias fuera de serie, con las asombrosas series de Dick Wolf: La ley y el Orden y las series de Chicago."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/sony.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/sony.jpg",
+                "nombreCanal": "SONY",
+                "descripcion": "El espacio perfecto para tu diversión, con series y películas que inspiran y entretienen. Métete en la piel de Meredith en Grey's Anatomy, vive la historia de Shaun en The Good Doctor y negocia con los grandes en Shark Tank México."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/wb.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/wb.jpg",
+                "nombreCanal": "Warner Channel",
+                "descripcion": "¡Bazinga! Bienvenido a la casa de The Big Bang Theory y las series del estudio número 1 de Hollywood: Warner Bros., animes como Dragon Ball Super y Naruto, así como películas para toda la familia."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/amc.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/amc.jpg",
+                "nombreCanal": "AMC",
+                "descripcion": "Contenido pionero, popular y premium para fanáticos de historias extraordinarias: adéntrate en las aventuras de Leonardo, Anna e increíbles películas que te quitarán el aliento."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/lifetime.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/lifetime.jpg",
+                "nombreCanal": "LIFETIME",
+                "descripcion": "Series que celebran, entretienen y apoyan a la mujer, conectando con sus emociones a través de títulos como Amores que engañan, Dance Moms, Pequeñas grandes mujeres y sus ya reconocidas Lifetime Movies."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/tnt.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/tnt.jpg",
+                "nombreCanal": "TNT Series",
+                "descripcion": "Un canal lleno de estrellas de cine y tv que llegan a tu pantalla a través de series exclusivas e irresistibles historias. Te esperan los protagonistas más interesantes y creativos como El Mentalista, Doctor Milagro y la emblemática serie E.R."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/investigation_discovery.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/investigation_discovery.jpg",
+                "nombreCanal": "INVESTIGATION DISCOVERY",
+                "descripcion": "Déjate sorprender por ID y sus investigaciones criminales, homicidios y documentales relacionados con delitos aterradores. Entre su programación encuentras Asesinatos en familia, Cuando el mal se disfraza y Enlace mortal."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/antena_3.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/antena_3.jpg",
+                "nombreCanal": "ANTENA 3",
+                "descripcion": "Programas de fama mundial como El Hormiguero 3.0 y Pasapalabra, series, deportes, películas, documentales y noticias traídos directo desde España."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/europa_europa.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/europa_europa.jpg",
+                "nombreCanal": "EUROPA EUROPA",
+                "descripcion": "Contenido para todas las edades 100% europeo, con series y películas que han transformado la televisión como Call the Midwife, The Mallorca Files y Atelier Fontana."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/comedy_central.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/comedy_central.jpg",
+                "nombreCanal": "COMEDY CENTRAL",
+                "descripcion": "Diversión a manos llenas: los mejores monólogos, programas de sketchs, animación para adultos, y novelas inolvidables como Yo soy Betty, la fea."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/disney_channel.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/disney_channel.jpg",
+                "nombreCanal": "DISNEY CHANNEL",
+                "descripcion": "La diversión nunca termina con los personajes más entrañables de Disney y sus mágicas películas, con series como Miraculous: las aventuras de Ladybug, Phineas y Ferb y Andi Mack."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/paramount.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/paramount.jpg",
+                "nombreCanal": "PARAMOUNT",
+                "descripcion": "Entretenimiento que va más allá de los límites de contar historias, con atrevidas series como Yellowstone y películas hechas para satisfacer hasta a los más exigentes."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/film%20&%20arts.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/film%20&%20arts.jpg",
+                "nombreCanal": "FILM & ARTS",
+                "descripcion": "Si te encantan los espectáculos de Broadway, los eventos en vivo y el arte, este es tu canal. Disfruta los Premios Tony, funciones del Cirque Du Soleil, el Concierto de París y mucho más."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/teveo.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/img_teveo.jpg",
+                "nombreCanal": "TeVeo",
+                "descripcion": "Entretenimiento general para toda la familia, comedia, musicales y producciones especiales."
+            }
+        ]
+      },
+      {
+        "nombre": "Estilo de vida",
+        "canales": [
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/home_health.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/home_health.jpg",
+                "nombreCanal": "HOME & HEALTH",
+                "descripcion": "Producciones de salud, cocina, belleza, hogar ¡y mucho entretenimiento! Aquí encuentras la Bodas soñadas, al único Cake Boss, las increíbles Remodelaciones con celebridades y grandes especialistas para ti y tu casa soñada."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/tlc.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/tlc.jpg",
+                "nombreCanal": "TLC",
+                "descripcion": "El estilo de vida que necesitas en un solo lugar: viajes, culinaria y personalidades, con programas tan singulares como Cuponmanía, sorprendentes como La Médium e inspiradores como Gran-diosa."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/el_gourmet.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/el_gourmet.jpg",
+                "nombreCanal": "EL GOURMET",
+                "descripcion": "La programación gastronómica líder en América Latina, 100% en español. Deléitate con el sabor de personalidades como Anna Olson, los dulces detalles con Paulina y los antojos de Vero Zuma."
+            },
+            
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/mas_chic.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/mas_chic.jpg",
+                "nombreCanal": "MAS CHIC",
+                "descripcion": "Belleza, moda, bienestar y decoración en un canal 100% en español, Customiza tu casa, redecora con Raquel y disfruta el Fashion Week México ¡te va a encantar!."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/hola_tv.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/hola_tv.jpg",
+                "nombreCanal": "HOLA TV",
+                "descripcion": "El canal con acceso exclusivo a historias de interés humano, entrevistas exclusivas, moda, realeza, celebridades y estilo de vida. Inicia tu día con Happy & Zen, entérate de todo en Íconos ¡HOLA! TV y mira los Especiales Realeza."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/e!_entertainment.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/e!_entertainment.jpg",
+                "nombreCanal": "E! ENTERTAINMENT",
+                "descripcion": "Encuentra las noticias del entretenimiento, grandes celebridades, moda y estilo de vida en E!, siempre generando conversación con las alfombras rojas en vivo y programas únicos como Botched, Project Runway y Ojos de mujer."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/americanTV.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/img_americaTV.jpg",
+                "nombreCanal": "America TeVe",
+                "descripcion": "Contenido original con programas en vivo, noticieros, debate, novelas, comedia, series, entretenimiento general ¡y más!"
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/multimedios.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/img_multimedios.jpg",
+                "nombreCanal": "Multimedios",
+                "descripcion": "Si buscas diversión, estás en el lugar correcto: Multimedios trae para ti programación para toda la familia con programas como Chismorreo, Vivalavi, Las noches del futbol y Te vas a quedar de a 6."
+            }
+        ]
+      },
+      {
+        "nombre": "Música",
+        "canales": [
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/mtv.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/mtv.jpg",
+                "nombreCanal": "MTV",
+                "descripcion": "Si eres fan de Acapulco Shore y Are you the one? este es tu canal, con sorprendentes reality shows, series y eventos en vivo, música, noticias de grandes celebridades y cultura pop."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/mtvhits.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/img_mtvhits.jpg",
+                "nombreCanal": "MTV Hits Latin America",
+                "descripcion": "Un canal lleno de música que transmite videos en inglés y español las 24 hroas del día, con los últimos videos musicales de los artistas del momento en Worldwide Hits, Non-stop Hits y Totally 10s!"
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/mtv_00s.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/mtv_00s.jpg",
+                "nombreCanal": "MTV 00s",
+                "descripcion": "Realiza un viaje a la nostalgia de la década que fue 100% pop; cuando Pink, Britney, Beyoncé y Eminem se convirtieron en superestrellas internacionales."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/exa_tv.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/exa_tv.png",
+                "nombreCanal": "EXA TV",
+                "descripcion": "¡En EXA TV traemos lo mejor de las celebrities, música, shows, tendencias y cultura joven! Con el Top 5 de tus artistas favoritos, grandes entrevistas en Axeso con Jessie Cervantes y los mejores videos de K-Pop."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/la_mejor.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/la_mejor.jpg",
+                "nombreCanal": "LA MEJOR",
+                "descripcion": "El hogar de los géneros más exitosos de México: norteño, grupero, duranguense, banda y ranchero, con los grandes tops e información de tus artistas favoritos en El Tope y El Duelo."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/teleritmo.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/teleritmo.jpg",
+                "nombreCanal": "TELERITMO",
+                "descripcion": "Canal con diversos especiales y espacios con música tradicional mexicana. Noticias, conciertos, videos musicales, notas y mucho más."
+            }
+            
+        ]
+      },
+      {
+        "nombre": "Infantil",
+        "canales": [
+            
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/disney_junior.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/disney_junior.png",
+                "nombreCanal": "DISNEY JUNIOR",
+                "descripcion": "Únete a tus hijos en la experiencia mágica, musical y sentimental de las historias de Junior Express, PJ Masks: Héroes en pijamas, Doctora juguetes y Mickey aventuras sobre ruedas."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/nickelodeon.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/nickelodeon.jpg",
+                "nombreCanal": "NICKELODEON",
+                "descripcion": "Llena tu día de diversión con series animadas como Bob Esponja, Los Casagrande, Danger Force ¡y muchas más! Así como los reconocidos Kids' Choice Awards."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/cartoon_network.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/cartoon_network.jpg",
+                "nombreCanal": "CARTOON NETWORK",
+                "descripcion": "Las series animadas más aclamadas están aquí: Los jóvenes Titanes en acción, Steven Universe, Escandalosos... producciones originales y llenas de diversión."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/nick_jr.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/nick_jr.jpg",
+                "nombreCanal": "NICK JR",
+                "descripcion": "Nada como conocer más del mundo al lado de Paw Patrol, Las pistas de Blue, series y programas educativos y entretenidos, incentivando a los pequeños de la casa a jugar, aprender y divertirse."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/babyfirts.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/babyfirts.png",
+                "nombreCanal": "BABYFIRTS",
+                "descripcion": "Inspira a tu bebé a descubrir el mundo y desarrollar sus habilidades a través de programas con colores, números, animales, arte, música y más con adorables personajes como La pequeña Lola visita la ciudad."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/babytv.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/babytv.jpg",
+                "nombreCanal": "BABYTV",
+                "descripcion": "Un mundo de entretenimiento pensado para niños pequeños, lleno de contenido creado por expertos. Deja que exploren en El patio de la imaginación, La hora del arte, la creatividad y la música ¡y mucho más!"
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/dreamworks.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/img_deamworks.jpg",
+                "nombreCanal": "Dreamworks",
+                "descripcion": "Contenido animado y premiado del mundo del cine y la televisión, la casa de El gato con botas, Madagascar, Home, Cómo entrenar a tu dragón, Spirit, entre otros grandes personajes."
+            }
+        ]
+      },
+      {
+        "nombre": "Conocimiento",
+        "canales": [
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/discovery.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/discovery.jpg",
+                "nombreCanal": "DISCOVERY CHANNEL",
+                "descripcion": "Ciencia, tecnología, naturaleza, aventura humana y cultura mundial de alta calidad, para que conozcas todos los rincones del planeta al lado de Bear Grylls, transformes autos en Joyas sobre ruedas y te sorprendas con los casos de Kilos Mortales."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/animal_planet.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/animal_planet.jpg",
+                "nombreCanal": "ANIMAL PLANET",
+                "descripcion": "Explora la relación única que existe entre los animales y los seres humanos, festeja el Día de la Tierra, visita el Zoológico del Bronx, convive con Los Irwin y conoce los casos más complicados con Amanda al rescate."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/national_geographic.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/national_geographic.jpg",
+                "nombreCanal": "NATIONAL GEOGRAPHIC",
+                "descripcion": "Programas icónicos como Alerta Aeropuerto y documentales sobre exploración científica, historia, naturaleza, fotografía y viajes, cultura, entre otros."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/history.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/history.jpg",
+                "nombreCanal": "HISTORY",
+                "descripcion": "Conéctate con la historia a través de entretenidas series y especiales, con una amplia gama de géneros como ciencia, arqueología y cultura pop entre las que están ¿Quién da má$?, Alienígenas ancestrales y El precio de la historia."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/arts.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/arts.jpg",
+                "nombreCanal": "ARTS",
+                "descripcion": "Acércate al arte con conciertos de música clásica, actuaciones y presentaciones que muestran una amplia gama de artes clásicas."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/agrotendencia_tv.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/agrotendencia_tv.jpg",
+                "nombreCanal": "Agrotendencia TV",
+                "descripcion": "La mejor herramienta para el mejoramiento del campo, tu mejor opción para conocer todo lo que necesitas del sector agroalimentario."
+            }
+        ]
+      },
+      {
+        "nombre": "Deportes",
+        "canales": [
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/discovery_turbo.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/discovery_turbo.jpg",
+                "nombreCanal": "DISCOVERY TURBO",
+                "descripcion": "Deja que Discovery Turbo lleve tu la pasión del guerrero motorizado al siguiente nivel, tenemos a los grandes expertos para hacerte sentir en tu propio garage: Mexicánicos, Justin y Nick, Will Castro, entre otros."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/claro_sports.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/img_claro_sports.jpg",
+                "nombreCanal": "Claro Sports",
+                "descripcion": "La mejor variedad deportiva las 24 horas del día, con los mejores eventos internacionales en ciclismo, automovilismo, Juegos Olímpicos, basquetbol y futbol americano... ¡sin olvidar el futbol mexicano e internacional!"
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/espn.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/espn.jpg",
+                "nombreCanal": "ESPN",
+                "descripcion": "Canal deportivo que junto a sus transmisiones en vivo, ofrece una amplia cobertura para que disfrutes los partidos como si estuvieras ahí. Sigue el futbol mexicano, el torneo Wimbledon, la NBA y la LMB."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/espn_2.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/espn_2.jpg",
+                "nombreCanal": "ESPN 2",
+                "descripcion": "Deporte nacional e internacional en vivo; además, disfruta de análisis y entrevistas en Futbol picante y SportsCenter."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/espn_nort.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/img_espn_tres.jpg",
+                "nombreCanal": "ESPN Tres North",
+                "descripcion": "Canal que ofrece transmisiones en vivo y repeticiones de eventos deportivos mundiales a los fanáticos del futbol, beisbol, basquetbol, y más, con partidos como la UEFA Eurocopa Femenina, The Basketball Tournament, MLS y más."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/espn_extra.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/espn_extra.jpg",
+                "nombreCanal": "ESPN EXTRA",
+                "descripcion": "Canal de deportes que cuenta con trasmisiones en vivo como futbol, ciclismo, boxeo, tenis, golf, entre otros., con programas como ESPN Run y NFL Live."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/azteca_deportes.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/img_azteca_deportes.jpg",
+                "nombreCanal": "Azteca Deportes",
+                "descripcion": "Una atrevida propuesta deportiva para disfrutar de la mayor variedad de ligas deportivas mexicana: futbol, futbol femenil, basquetbol, futbol americano, box, lucha libre, kickboxing y programas de análisis."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/aym_sports.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/aym_sports.jpg",
+                "nombreCanal": "AYM SPORTS",
+                "descripcion": "Disfruta del mundo del deporte con eventos nacionales de futbol, beisbol, boxeo, basquetbol y programación especializada en deportes al aire libre."
+            }
+            
+        ]
+      },
+      {
+        "nombre": "Noticias",
+        "canales": [
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/arirang.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/arirang.jpg",
+                "nombreCanal": "ARIRANG",
+                "descripcion": "Noticias, programas culturales, educativos y de entretenimiento, dramas, documentales y más, transmitido desde Corea del Sur. Entérate de lo último en el mundo en Global insight y Arirang News."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/cnn_español.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/cnn_español.jpg",
+                "nombreCanal": "CNN ESPAÑOL",
+                "descripcion": "Canal de noticias en español, con grandes coberturas de acontecimientos mundiales, análisis y reportajes de América Latina y el mundo. Infórmate con los mejores en Café CNN, Panorama Mundial y Amanpour."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/france_24.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/france_24.jpg",
+                "nombreCanal": "FRANCE 24",
+                "descripcion": "Un acercamiento francés al mundo desde París, en un canal donde se brinda información de actualidad, con grandes periodistas y reporteros que día a día traen la mejor información en noticiarios como Une semaine dans le monde y Focus."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/france_24_english.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/france_24_english.jpg",
+                "nombreCanal": "FRANCE 24 | ENGLISH",
+                "descripcion": "La versión en inglés del canal France 24, con reportajes y programas con lo último en noticias, con el contexto necesario para entender lo que sucede en la actualidad, infórmate con The News, Eye on Africa y muchos programas más."
+            },{
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/france_24_español.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/france_24_español.jpg",
+                "nombreCanal": "FRANCE 24 | ESPAÑOL",
+                "descripcion": "La versión en español del canal France 24, con periodistas y corresponsales que ofrecen información a través de noticieros, reportajes y programas de debates, entre los que encontrarás Ellas hoy, En foco y Revista digital."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/esne.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/esne.jpg",
+                "nombreCanal": "ESNE",
+                "descripcion": "Conferencias y temas dirigidos a toda la comunidad católica, con testimonios de conversión, entrevistas, música, la Santa Misa y el Santo Rosario en vivo y programas especiales."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/milenio_tv.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/milenio_tv.jpg",
+                "nombreCanal": "MILENIO TV",
+                "descripcion": "Encuentra la cobertura en vivo de los sucesos más sobresalientes en México y más allá de las fronteras al lado de Alejandro Domínguez en Milenio Noticias, Azucena a las 10 y otros noticieros que llenarán tus días de todo lo necesario por saber."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/telefórmula.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/telefórmula.jpg",
+
+                "nombreCanal": "Telefórmula",
+                "descripcion": "TeleFórmula se especializa en noticias, deportes, espectáculos, finanzas y programas de opinión."
+            }
+            
+        ]
+      },
+      {
+        "nombre": "Películas",
+        "canales": [
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/fx.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/fx.jpg",
+                "nombreCanal": "FX",
+                "descripcion": "Títulos de películas que merecen mirarse al borde del asiento, como El planeta de los simios: confrontación y Transformers: el último caballero."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/space.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/space.jpg",
+                "nombreCanal": "SPACE",
+                "descripcion": "Vive experiencias que te dejarán sin respiración con grandes películas de suspenso, terror, ciencia ficción... ¡y grandes eventos de box y lucha libre AAA! Space te espera con El Turista, Sherlock Holmes y muchos títulos más."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/syfy.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/syfy.jpg",
+                "nombreCanal": "SYFY",
+                "descripcion": "El hogar para los fanáticos de la ciencia ficción, fantasía, superhéroes, gaming y contenido único. Entre sus programas encontrarás la épica serie Héroes, The Magicians y Grimm"
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/tnt.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/tnt.jpg",
+                "nombreCanal": "TNT Peliculas",
+                "descripcion": "Encuentra las películas más taquilleras y los eventos más espectaculares del entretenimiento como los Premios Oscar®, y los GRAMMY Awards® en vivo"
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/mc.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/mc.jpg",
+                "nombreCanal": "MC",
+                "descripcion": "Acción, suspenso, terror y comedia que causa tensión adictiva, 24 horas de grandes películas como La maldición de la sirena, Street Fighter Puño asesino, El huésped maldito y Pacto final."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/cinemax.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/cinemax.jpg",
+                "nombreCanal": "CINEMAX",
+                "descripcion": "Cine extraordinario con producciones independientes e internacionales como Desperaux: un pequeño gran héroe, El cadáver de la novia, Beautiful y los actores más relevantes de la industria."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/multipremiere.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/multipremiere.jpg",
+                "nombreCanal": "MULTIPREMIERE",
+                "descripcion": "Tu espacio para la comedia, el drama y el romance de Hollywood. Encuentra títulos como La verdad oculta, El libro del amor y Ojos grandes."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/cinecannal.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/cinecannal.jpg",
+                "nombreCanal": "CINECANNAL",
+                "descripcion": "Tu espacio para la comedia, el drama y el romance de Hollywood. Encuentra títulos como La verdad oculta, El libro del amor y Ojos grandes."
+            },            
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/studio_universall.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/studio_universall.jpg",
+                "nombreCanal": "STUDIO UNIVERSALL",
+                "descripcion": "Vive la experiencia de las películas más taquilleras y galardonadas de Hollywood como Atómica, El justiciero y Bad Boys 2: vuelven más rebeldes ¡transpórtate al cine desde tu casa!"
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/cine_latino.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/cine_latino.jpg",
+                "nombreCanal": "CINE LATINO",
+                "descripcion": "El mejor cine y series latinoamericana en tu idioma, con contenidos de alta calidad y grandes actores de reconocimiento a nivel mundial con películas como Salsa en Tel Aviv y Anna Antinarcóticos."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/filmex.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/img_filmex.jpg",
+                "nombreCanal": "Filmex",
+                "descripcion": "Películas mexicanas las 24 horas del día, contemporáneas y remasterizadas en HD."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/filmex_clasico.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/img_fimex_clasico.jpg",
+                "nombreCanal": "Filmex Clásico",
+                "descripcion": "Películas clásicas de México para toda la familia las 24 horas del día."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/filmex_documentales.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/img_fimex_documentales.jpg",
+                "nombreCanal": "Filmex Documentales",
+                "descripcion": "Miles de documentales y producciones especiales de México y América Latina, incluyendo los torneos de futbol más famosos, eventos de boxeo y diferentes ediciones de los Juegos Olímpicos, destinos turísticos y personajes relevantes."
+            }
+            
+        ]
+      },
+      {
+        "nombre": "Religión",
+        "canales": [
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/jesus_christ.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/jesus_christ.jpg",
+                "nombreCanal": "JESUS CHRIST",
+                "descripcion": "Canal religioso que transmite contenidos con valores cristianos, culturales y educativos, para llevar la palabra de Dios al mundo."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/maría_visión.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/maría_visión.jpg",
+                "nombreCanal": "MARÍA VISIÓN",
+                "descripcion": "Canal católico enfocado en la transmisión de programas religiosos. Con programas como El Santísimo Sacramento, Coronilla de la Divina y El Santo Rosario."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/maría_visión_italia.png",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/maría_visión_italia.jpg",
+                "nombreCanal": "MARÍA VISIÓN | ITALIA",
+                "descripcion": "Canal católico con el objetivo de llevar la luz del Evangelio al mundo entero, con misas y programas transmitidos desde Italia."
+            }
+        ]
+      },
+      {
+        "nombre": "Novelas",
+        "canales":[
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/tnt_novelas.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/tnt_novelas.jpg",
+                "nombreCanal": "TNT NOVELAS",
+                "descripcion": "Series y películas de comedia para que te olvides de tus problemas diarios, aquí el humor es tendencia y va de la mano de programas como Hazme reír, El alma de la fiesta y películas como No te metas con Zohan."
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/logo_canal/telemundo.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteExtendido/img_principal/img_telemundo.jpg",
+                "nombreCanal": "Telemundo",
+                "descripcion": "Ofrece el mejor entretenimiento original en español con novelas, eventos en vivo, Super Series, noticias y programas de entrevistas con los talentos mas relevantes de nuestra región.  "
+            },
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/logo_romance_channel.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/img_romance_channel.jpg",
+                "nombreCanal": "Romance Channel",
+                "descripcion": "Un sensual y apasionado canal conformado por películas románticas que te cautivarán a través de historias de amorm, intriga, obstáculos y giros inesperados."
+            }
+        ]
+      },
+      {
+        "nombre": "Entretenimiento",
+        "canales":[
+            {
+                "imagenCanal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/logo_canal/mvs_tv.svg",
+                "imagenPrincipal": "https://d31nz91qboyide.cloudfront.net/mvshub/modales/paqueteEsencial/img_principal/mvs_tv.jpg",
+                "nombreCanal": "MVS TV",
+                "descripcion": "Películas, series y producciones originales como Tu night con Gabo Ramos y 5olo ellas; además de eventos deportivos exclusivos y la información de México y el mundo que necesitas para estar al día con Almohadazo Casero y Reacción en cadena."
+            }
+        ]
+      }
+    ]
+}
+  
