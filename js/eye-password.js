@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener("DOMContentLoaded", function () {
   const emailInput = document.getElementById("email");
   const passwordInput = document.getElementById("password");
+  const emailLabel = document.querySelector("label[for='email']");
+  const passwordLabel = document.querySelector("label[for='password']");
   const emailError = document.getElementById("emailError");
   const passwordError = document.getElementById("passwordError");
   const form = document.getElementById("registerForm");
@@ -33,44 +35,42 @@ document.addEventListener("DOMContentLoaded", function () {
   emailInput.addEventListener("input", function () {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (emailInput.value === "") {
-      // Si el campo está vacío, no mostrar mensaje de error
       emailInput.classList.remove("valid", "invalid");
+      emailLabel.classList.remove("valid-label");
       emailError.textContent = "";
     } else if (emailRegex.test(emailInput.value)) {
       emailInput.classList.add("valid");
       emailInput.classList.remove("invalid");
+      emailLabel.classList.add("valid-label");
       emailError.textContent = "";
     } else {
       emailInput.classList.add("invalid");
       emailInput.classList.remove("valid");
-      emailError.textContent = "Revisa que el correo este escrito correctamente. Ejemplo: correo@dominio.com";
+      emailLabel.classList.remove("valid-label");
+      emailError.textContent = "Revisa que el correo esté escrito correctamente. Ejemplo: correo@dominio.com";
     }
   });
 
- 
-
-// Validar contraseña
-passwordInput.addEventListener("input", function () {
-  const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$/;
-  if (passwordInput.value === "") {
-    // Si el campo está vacío, no mostrar mensaje de error
-    passwordInput.classList.remove("valid", "invalid");
-    passwordError.textContent = "";
-  } else if (passwordRegex.test(passwordInput.value)) {
-    passwordInput.classList.add("valid");
-    passwordInput.classList.remove("invalid");
-    passwordError.textContent = "";
-  } else {
-    passwordInput.classList.add("invalid");
-    passwordInput.classList.remove("valid");
-    passwordError.textContent =
-     "Al menos 6 caracteres (mayúscula y minúscula y un número)";
-  }
-});
-
-
-
-
+  // Validar contraseña
+  passwordInput.addEventListener("input", function () {
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$/;
+    if (passwordInput.value === "") {
+      passwordInput.classList.remove("valid", "invalid");
+      passwordLabel.classList.remove("valid-label");
+      passwordError.textContent = "";
+    } else if (passwordRegex.test(passwordInput.value)) {
+      passwordInput.classList.add("valid");
+      passwordInput.classList.remove("invalid");
+      passwordLabel.classList.add("valid-label");
+      passwordError.textContent = "";
+    } else {
+      passwordInput.classList.add("invalid");
+      passwordInput.classList.remove("valid");
+      passwordLabel.classList.remove("valid-label");
+      passwordError.textContent =
+        "La contraseña debe tener al menos 6 caracteres, incluyendo una mayúscula, una minúscula y un número.";
+    }
+  });
 
   // Validación al enviar el formulario
   form.addEventListener("submit", function (e) {

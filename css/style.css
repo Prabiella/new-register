@@ -1609,6 +1609,13 @@ select:-webkit-autofill:focus {
   font-size: 0.75rem;
   color: #F6921E;
 }
+
+/* Cambiar a verde cuando sea válido */
+.valid + .form-label {
+  color: green!important; /* Verde si es válido */
+}
+
+
 .btn-primary {
   width: 100%;
   padding: 0.75rem;
