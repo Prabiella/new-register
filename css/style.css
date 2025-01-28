@@ -9945,6 +9945,12 @@ Media queries anahí
 }
 /*RESPONSIVE PAQUETES*/
 @media screen and (max-width: 320px) {
+
+  .login-link-newregister {
+    margin-top: 20%;
+  
+}
+
   .check-text-newregister {
     font-size: 0.75em;
 }
@@ -9969,6 +9975,11 @@ Media queries anahí
   }
 }
 @media screen and (max-width: 425px) {
+
+  .login-link-newregister {
+    margin-top: 20%;
+  
+}
 
   .form-container {
     border: 0px!important;
