@@ -1729,7 +1729,7 @@ select:-webkit-autofill:focus {
 }
 
 .navbar-newregister img{
-  width: 250px; 
+  width: 260px; 
   height: auto; 
 }
 
@@ -1782,6 +1782,32 @@ select:-webkit-autofill:focus {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
+
+
+.congrats-image {
+  width: 100%; 
+  height: auto;
+}
+
+
+
+/* Estilos movimiento arrow  */
+
+
+.arrow-newregister{
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(10px);
+  }
+}
+
+
 
 
 
@@ -9456,7 +9482,7 @@ Media queries anahí
 .packs-title1 {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
-  font-size: 21px;
+  font-size: 26px;
 }
 
 .packs-title2 {
