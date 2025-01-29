@@ -14,7 +14,11 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/987edafa85.js" crossorigin="anonymous"></script>
 	<!--Estilos generales-->
-	<link href="css/styleold.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<style>
+	
+
+	</style>
 
 </head>
 
@@ -33,38 +37,51 @@
         <div class="col-12 col-md-12 col-lg-6 py-4 py-md-5">
             <div class="form-container">
                
-                <form class="newregister-form" id="registerForm">
-					<h1 class="poppins-xb-newregister AA_title-ingresar pb-4">Ingresa el código que te acabamos de enviar a
-						<span class="poppins-red">paquirrirabiella@mail.com</span></h1>
-                    <div class="form-group pb-0 mb-0">
-						      
-							<input class="AA_code" type="text" id="pincode-input7" value="">
-					
-							
-						
-                    </div>
-					<p class="error-message" id="emailError"></p>
+				<form class="newregister-form" id="registerForm">
+					<h1 class="poppins-xb-newregister AA_title-ingresar">
+						Ingresa el código que te acabamos de enviar a
+						<span class="poppins-red">paquirrirabiella@mail.com</span>
+					</h1>
 				
-					  <p class="error-message px-0 mx-0" id="passwordError"></p>
-                    <button type="submit" class="btn btn-primary mt-3 btn-newregister-form" onclick="window.location.href='new-paquetes-nueva-oferta.html';">VERIFICAR Y CREAR CUENTA</button>
-
-			
-
-
-						<div class="row align-items-center ml-1">
-							<div class="col-12 poppins check-text-newregister">
-							  <p class="m-0 text-center mb-3">Te enviamos el código de verificación desde <b>mvshub@mvshub.com.mx</b></p>
-							  <p class="text-center">Si no tienes el correo en tu bandeja de entrada, <br/> búscalo en correos no deseados (SPAM) basurero o archivos</p>
+					<!-- Contenedor del Pincode centrado -->
+					<div class="pincode-wrapper my-5">
+						<div class="pincode-container">
+							<input type="text" id="pincode-input-newregister" maxlength="6" placeholder=" " autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+							<div class="pincode-visual" aria-hidden="true">
+								<span></span><span></span><span></span><span></span><span></span><span></span>
 							</div>
+						</div>
 						
-							<p class="login-link-newregister"> ¿No recibiste el código?<a href="inicia-sesion.html"> | Enviar nuevamente</a></p>
-						  </div>
-						
-
-
-					  
-                   
-                </form>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<span class="error-message-code px-0 mx-0" id="codeError"></span>
+						</div>
+					</div>
+					<br>
+					<div class="col-12  col-lg-12 col-xl-8 offset-xl-2">
+						<button type="submit" class="btn btn-primary mt-3 btn-newregister-form" onclick="window.location.href='new-paquetes-nueva-oferta.html';">
+							VERIFICAR Y CREAR CUENTA
+						</button>
+					</div>
+					
+				
+					<div class="row align-items-center ml-1">
+						<div class="col-12 poppins check-text-newregister">
+							<p class="m-0 text-center mb-3">
+								Te enviamos el código de verificación desde <b>mvshub@mvshub.com.mx</b>
+							</p>
+							<p class="text-center">
+								Si no tienes el correo en tu bandeja de entrada, <br/> búscalo en correos no deseados (SPAM) basurero o archivos
+							</p>
+						</div>
+				
+						<p class="login-link-newregister">
+							¿No recibiste el código?
+							<a href="inicia-sesion.html"> | Enviar nuevamente</a>
+						</p>
+					</div>
+				</form>
             </div>
         </div>
     </div>
@@ -81,11 +98,45 @@
 	<script src="js/jquery-3.2.1.slim.min.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/bootstrap-pincode-input.js"></script><!--Este es el jQuery widget para el PinCode-->
-	<script src="js/pincode_funcionalidad.js"></script><!--Este es el js de la funcionalidad-->
-	<script src="js/valida_pass.js"></script>
+	<script src="js/codevalidate.js"></script>
 	
+<!-- 	<script>
+	document.addEventListener("DOMContentLoaded", function () {
+    const input = document.getElementById("pincode-input-newregister");
+    const spans = document.querySelectorAll(".pincode-visual span");
 
+    input.setAttribute("autocomplete", "off");
+    input.setAttribute("autocorrect", "off");
+    input.setAttribute("autocapitalize", "off");
+    input.setAttribute("spellcheck", "false");
+
+    input.addEventListener("input", function () {
+        const value = input.value.slice(0, 6).replace(/\D/g, ""); // Solo números
+        input.value = value;
+
+        spans.forEach((span, i) => {
+            span.textContent = value[i] || "";
+            span.classList.toggle("filled", !!value[i]); // Efecto de relleno
+            span.classList.remove("active");
+        });
+
+        if (value.length < 6) {
+            spans[value.length].classList.add("active"); // Cursor en la siguiente casilla vacía
+        }
+    });
+
+    input.addEventListener("focus", function () {
+        spans.forEach(span => span.classList.remove("active"));
+        if (input.value.length < 6) {
+            spans[input.value.length].classList.add("active");
+        }
+    });
+
+    input.addEventListener("blur", function () {
+        spans.forEach(span => span.classList.remove("active"));
+    });
+});
+	</script> -->
 </body>
 
 </html>

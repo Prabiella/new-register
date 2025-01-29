@@ -1838,6 +1838,7 @@ select:-webkit-autofill:focus {
   padding: 8px;
 }
 
+
 /* Adaptabilidad en pantallas pequeñas */
 @media (max-width: 768px) {
   .pincode-input-container {
@@ -1969,6 +1970,142 @@ select:-webkit-autofill:focus {
   width: 65px !important;
   /* Cambia '200px' al ancho que desees */
 }
+
+
+/* NUEVO PINCODE ================================= */
+
+	/* Centrar el Pincode dentro del formulario */
+  .pincode-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+/* Ajustar el Pincode dentro del formulario */
+.pincode-container {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    cursor: text;
+}
+
+/* Input real pero transparente */
+#pincode-input-newregister {
+    position: absolute;
+    width: 100%;
+    height: 65px;
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    color: transparent;
+    caret-color: transparent;
+    z-index: 2;
+}
+
+/* Contenedor visual de los cuadros */
+.pincode-visual {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Estilos de los cuadros del PIN */
+.pincode-visual span {
+    flex: 1;
+    height: 65px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: 2px solid transparent;
+    outline: 0.1rem solid #B0B0B0;
+    transition: all 0.3s ease-in-out;
+    margin: 0 6px; /* Mayor separación */
+    position: relative;
+}
+
+/* Agregar un cursor falso */
+.pincode-visual span::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 70%;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: blink 1s infinite;
+}
+
+/* Mostrar el cursor en la caja actual */
+.pincode-visual span.filled::after {
+    opacity: 0;
+}
+
+.pincode-visual span.active::after {
+    opacity: 1;
+}
+
+/* Estilo general para el mensaje de error debajo del Pincode */
+.error-message-code {
+    position: relative;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5%; /* Separa el mensaje de error del PIN */
+    padding: 5px;
+    visibility: hidden; /* Inicialmente está oculto */
+}
+
+/* Hacer que el mensaje de error sea visible */
+.error-message-code.visible {
+    visibility: visible;
+}
+
+
+/* Animación de parpadeo */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Responsivo para móviles */
+@media (max-width: 480px) {
+    .pincode-container {
+        max-width: 280px;
+    }
+
+    .pincode-visual span {
+        height: 50px;
+        font-size: 30px;
+        line-height: 50px;
+        border-radius: 6px;
+        margin: 0 5px; /* Ajustar separación en móviles */
+    }
+
+    #pincode-input-newregister {
+        height: 50px;
+        font-size: 30px;
+        letter-spacing: 14px;
+    }
+}
+
+
+
 
 /* LABEL ======================================= */
 label.Fr_InfoCod {
@@ -10176,7 +10313,11 @@ Media queries anahí
 }
 
 .poppins-xb-newregister {
-  font-size: 1.8rem !important;
+  font-size: 1.0rem !important;
+}
+
+.btn-newregister-form{
+    font-size: 100%!important;
 }
 
   .container-platform {

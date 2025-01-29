@@ -13,7 +13,7 @@ $(document).ready(function () {
     
 }});
 
-    // show modal once
+// show modal once
    $('#modal-enter-pin').on('shown.bs.modal', function (e) {
        $('#pincode-input8').pincodeInput({
           inputs: 4,

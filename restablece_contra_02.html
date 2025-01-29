@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MVS Hub - movies | video | streaming</title>
+    <link rel="shortcut icon" type="image/png" href="https://d58ohtx80p2sd.cloudfront.net/mvshub/favicoicon/favicon.png"/>
+    <meta name="description" content="MVS Hub">
+    <meta name="author" content="MVS Hub">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<!--Estilos generales-->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+  <body>
+
+    <div class="container-fluid">
+<!--Inicia header-->
+<section class="header">
+	<nav class="navbar navbar-light">
+		<a href="registro.html">
+		<img src="https://d58ohtx80p2sd.cloudfront.net/dish-plus/img_black/header/flecha.svg" alt="left_arrow">
+		</a>
+		<a class="navbar-brand navbar-brand-centered" href="#">
+			<img src="https://d58ohtx80p2sd.cloudfront.net/mvshub/logo_mvshub/mvshub_logint.svg"/>
+		</a>
+
+		
+		
+	  </nav>
+</section>
+<!--Inicia Cuerpo-->
+	<section class="body">
+		<div class="row justify-content-center Fr_Content">
+			<div class="col-md-6 col-lg-4">
+				<form role="form" class="AA_content-code">
+					<div class="group">      
+						<input class="AA_code" type="text" id="pincode-input7" value="">
+						<span class="highlight"></span>
+					
+						<label class="Fr_InfoCod">Ingresa el código que te hemos enviado al correo <span class="Fr_InfoCodrojo">correo@mail.com</span> </label>
+					</div>
+
+						<!--Inicia contraseña-->
+						<h6 class="Fr_InfoCod">Ingresa la nueva contraseña</h6>
+						<div class="InputClass">
+							<input type="password" required name="text" id="password" data-progress="passwordProgress"/>
+							
+							<span class="p-viewer">
+								<i id="pass-status" class="fa fa-eye" aria-hidden="true" onClick="viewPassword()"></i>
+							</span>
+							<label class="InputClass-label" for="field-text">Contraseña</label>
+	
+						</div>
+	
+						<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+						<div class="progress barra-pass progress-password" >
+							<div class="progress-bar" id="passwordProgress" >
+							</div>
+						  </div>
+						  <p>
+							  <small>
+								  Debe tener mínimo 6 caracteres, 1 mayúscula, 1 minúscula y 1 caracter especial #$%
+							  </small>
+						  </p>
+					
+						<!--Termina contraseña-->
+
+						<div class="col-lg-7 offset-lg-5 col-md-7 offset-md-5 col-sm-8 offset-sm-6">
+							<button type="submit" class="btn btn-md red-boton text-center px-5 poppins-r white-icon">Continuar<i class="fa fa-arrow-right fa-sm ml-4" aria-hidden="true"></i></button>
+						</div>
+
+
+				</form>
+			</div>
+		</div>
+	
+	</section>
+   <!--Inicia footer-->
+   <section class="footer">
+	<div class="row">
+	<div class="col-lg-1 col-md-1 ">
+			<h6>AYUDA</h6>
+	</div>
+	<div class="col-lg-2 col-md-3">
+	  <ul>
+		<li class="list-item">
+					<a href="faqs.html">Preguntas frecuentes</a>
+		</li>
+		<li class="list-item">
+			<a href="gestion_dispositivos.html">Configuración de dispositivos</a>
+		</li>	
+		<li class="list-item">
+					<a href="Ventana_contacto.html">Contacto</a>
+		</li>
+	  </ul>
+	</div>
+	<div class="col-lg-1 col-md-1">
+			<h6>LEGALES</h6>
+	</div>
+	<div class="col-lg-2 col-md-3">
+	  <ul>
+		<li class="list-item">
+					<a href="terminos_de_uso.html">Términos de uso</a>
+		</li>
+		<li class="list-item">
+					<a href="terminos_y_condiciones.html">Términos y condiciones</a>
+		</li>
+		<li class="list-item">
+					<a href="aviso_privacidad.html">Aviso de privacidad</a>
+		</li>
+	  </ul>
+	</div>
+   
+	<div class="col-12 col-lg-3 col-md-4">
+		<ul class="WapFooter00">
+			<li class="WapFooter">
+				<img src="img/whatsapp/whatsapp_footer.svg" alt="">
+			</li>
+			<li class="WapFooter">
+			 <p>
+				Escríbenos por WhatsApp <br>
+				<a href="https://api.whatsapp.com/send/?phone=525556101010&amp;text&amp;app_absent=0" target="_blank">55 56 10 10 10</a> <br>
+				De lunes a domingo de 9am a 9pm
+			 </p>
+			  
+			   
+			</li>
+		</ul>
+	  
+	</div>
+   
+	<div class="col-lg-3 col-md-2">
+		<img src="https://d58ohtx80p2sd.cloudfront.net/mvshub/logo_mvshub/mvshub_footer.svg" alt="Logo Footer" class="LogFoot">
+	</div>
+  </div> 
+  
+</section>
+</div>
+
+<script src="js/jquery-3.2.1.slim.min.js"></script> <!--Esta librería Jquery es para el funcionameinto de los menus collapsables-->
+<script src="js/popper.min.js"></script><!--Esta librería Jquery es para el funcionameinto de los menus collapsables-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-pincode-input.js"></script><!--Este es el jQuery widget para el PinCode-->
+<script src="js/pincode_funcionalidad.js"></script><!--Este es el js de la funcionalidad-->
+<script src="js/valida_pass.js"></script>
+</body>
+</html>
