@@ -1817,28 +1817,64 @@ select:-webkit-autofill:focus {
   font-family: pincode-input-mask;
 }
 
+
+/*  */
+
 .pincode-input-container {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
   width: 100%;
-  height: 70px;
-  margin: 3% 0% 3% 0%;
+  margin: 3% 0;
+  flex-wrap: wrap;
 }
 
 .pincode-input-container input {
-  width: 25%;
-  background-color: transparent !important;
-  border: 2px solid #b0b0b0;
+  width: 22%;
+  max-width: 90px; /* Limita el tamaño en pantallas grandes */
+  height: 60px;
+  background-color: #181818 !important;
+  border: 1px solid #b0b0b0;
   border-radius: 4px;
-  margin: 0.3em;
-  padding: 8px 0 4px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 8px;
 }
+
+/* Adaptabilidad en pantallas pequeñas */
+@media (max-width: 768px) {
+  .pincode-input-container {
+    gap: 5px;
+  }
+  
+  .pincode-input-container input {
+    width: 18%;
+    max-width: 50px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+}
+
+/* Extra pequeño (móviles) */
+@media (max-width: 480px) {
+  .pincode-input-container input {
+    width: 20%;
+    max-width: 45px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+}
+
+/*  */
+
 
 .pincode-input-text {
   width: 40px;
   /* Ancho de cada input */
   height: 40px;
   /* Altura de cada input */
-  font-size: 18px;
+  font-size: 28px;
   /* Tamaño de fuente */
 }
 
@@ -1846,7 +1882,7 @@ select:-webkit-autofill:focus {
 .form-control.pincode-input-text {
   text-align: center;
   flex-grow: 1;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: #fff;
 }
 
@@ -3344,6 +3380,8 @@ small {
   background-color: #000;
   border-radius: 0.25rem;
 }
+
+
 
 .tooltip.info .tooltip-inner {
   background-color: #000;
