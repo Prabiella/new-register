@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>mvshub - movies | video | streaming</title>
+	<link rel="shortcut icon" type="image/png"
+		href="https://d58ohtx80p2sd.cloudfront.net/mvshub/favicoicon/favicon.png" />
+	<meta name="description" content="MVS Hub">
+	<meta name="author" content="MVS Hub">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/987edafa85.js" crossorigin="anonymous"></script>
+	<!--Estilos generales-->
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div class="container-fluid">
+		<!--Inicia header-->
+		<section class="header">
+			<nav class="navbar navbar-light navbar-newregister">
+				<img src="https://d58ohtx80p2sd.cloudfront.net/mvshub/logo_mvshub/mvshub_logint.svg"/>
+			</nav>
+		</section>
+		<!--Inicia Cuerpo-->
+<section class="body">
+    <div class="d-flex justify-content-center">
+        <div class="col-12 col-md-12 col-lg-6 py-5">
+            <div class="form-container">
+               
+				<form class="newregister-form" id="registerForm">
+					<h1 class="poppins-xb-newregister AA_title-ingresar pb-4">Inicia sesión</h1>
+					
+					<!-- Input de correo -->
+					<div class="form-group pb-0 mb-0">
+					  <input type="email" class="form-control-newform" id="email" placeholder=" " required>
+					  <label for="email" class="form-label px-0 mx-0">Correo electrónico</label>
+					</div>
+					<p class="error-message" id="emailError"></p>
+				  
+					<!-- Input de contraseña -->
+					<div class="form-group password-container pb-0 mb-0 mt-4">
+					  <input type="password" class="form-control-newform" id="password" placeholder=" " required>
+					  <label for="password" class="form-label">Contraseña | 6 caracteres</label>
+					  <span class="toggle-eye-password">
+						<img src="img/eye-closed.svg" alt="Ojo cerrado" class="eye-password-icon" id="eye-closed">
+						<img src="img/eye-open.svg" alt="Ojo abierto" class="eye-password-icon" id="eye-open" style="display: none;">
+					  </span>
+					</div>
+					<p class="error-message px-0 mx-0" id="passwordError"></p>
+				  
+					<!-- Recordar usuario y ¿No recuerdas tu contraseña? -->
+					<div class="row align-items-center justify-content-between mt-3">
+					  <!-- Checkbox y texto -->
+					  <div class="col-auto d-flex align-items-center poppins check-text-newregister">
+						<input type="checkbox" id="check1" class="check" checked>
+						<label class="span mx-2 pt-2" for="check1">Recordar usuario</label>
+					  </div>
+					  <!-- ¿No recuerdas tu contraseña? -->
+					  <div class="col-auto text-right">
+						<a href="reseteo-email.html" class="forgot-password-link poppins check-text-newregister">¿No recuerdas tu contraseña?</a>
+					  </div>
+					</div>
+				  
+					<!-- Botón de envío -->
+					<button type="submit" class="btn btn-primary mt-3 btn-newregister-form">COMENZAR AHORA</button>
+				  
+					<!-- Enlace para registro -->
+					<p class="login-link-newregister">¿No tienes cuenta? <a href="nuevo-registro.html">| Regístrate aquí</a></p>
+				  </form>
+				  
+            </div>
+        </div>
+    </div>
+</section>
+
+	</div>
+
+
+
+
+
+
+
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/eye-password.js"></script>
+	
+
+</body>
+
+</html>
