@@ -577,38 +577,6 @@ ul.navbar-nav.ml-auto {
   font-size: 1.5em;
 }
 
-
-/* titulo cabecera h1 new-register */
-.poppins-xb-newregister {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 2.3rem;
-  color: #f1f1f1 !important;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-
-.poppins-xb-newregister-reseteo {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 200;
-  font-size: 1.4rem;
-  color: #f1f1f1 !important;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-
-
-
-
-
 /* titulo cabecera h1 */
 .poppins-xb {
   font-family: "Roboto", sans-serif;
@@ -1123,9 +1091,9 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border:1px solid #B0B0B0;
-  -webkit-text-fill-color: #ffffff;
-  -webkit-box-shadow: 0 0 0px 1000px #181818 inset;
+  border: 0;
+  -webkit-text-fill-color: rgb(124, 124, 124);
+  -webkit-box-shadow: 0 0 0px 1000px rgba(63, 63, 63, 0.797) inset;
   transition: background-color 5000s ease-in-out 0s;
   color: #086dc4;
 }
@@ -1570,220 +1538,6 @@ select:-webkit-autofill:focus {
 .UltComp:checked + span::before {
   margin-top: 15px !important;
 }
-
-
-/* ESTILOS NUEVO REGISTRO ================================= */
-
-.newregister-form{
-  padding:0 5%;
-}
-
-
-.form-container {
-  background-color: #181818;
-  border: 1px solid #323232;
-  padding: 24px 56px;
-  border-radius: 16px;
-  box-shadow: 0 0 99px rgba(0, 0, 0, .4);
-  max-width: 100%;
-  margin: 0 auto;
-}
-.form-group {
-  position: relative;
-  margin-bottom: 1.5rem;
-}
-.form-control-newform {
-  padding-top: 1.5rem;
-  border: 1px solid #B0B0B0;
-  border-radius: 1px;
-  width: 100%;
-  height: 65px;
-  font-size: 1.3rem;
-  padding-left: 0.75rem;
-  background-color: transparent;
-  color: #fff;
-}
-.form-label {
-  position: absolute;
-  top: 50%;
-  left: 0.75rem;
-  transform: translateY(-50%);
-  transition: all 0.3s ease;
-  pointer-events: none;
-  color: #6c757d;
-  font-size: 1rem;
-  background-color: #181818;;
-  padding: 0 5px;
-}
-.form-control-newform:focus + .form-label,
-.form-control-newform:not(:placeholder-shown) + .form-label {
-  top: 0;
-  transform: translateY(-50%);
-  font-size: 0.75rem;
-  color: #F6921E;
-}
-
-/* Cambiar a verde cuando sea válido */
-.valid + .form-label {
-  color: rgb(11, 208, 11)!important; /* Verde si es válido */
-}
-
-
-.btn-primary {
-  width: 100%;
-  padding: 0.75rem;
-  font-size: 1rem;
-  background-color: #0d6efd;
-  border: none;
-  border-radius: 4px;
-  color: #ffffff;
-  cursor: pointer;
-}
-.btn-primary:hover {
-  background-color: #0b5ed7;
-}
-.terms-text {
-  font-size: 0.875rem;
-  color: #6c757d;
-  margin-top: 1rem;
-}
-.terms-text a {
-  color: #0d6efd;
-  text-decoration: none;
-}
-.terms-text a:hover {
-  text-decoration: underline;
-}
-.login-link {
-  text-align: center;
-  margin-top: 1rem;
-  font-size: 0.875rem;
-}
-.login-link a {
-  color: #0d6efd;
-  text-decoration: none;
-}
-.login-link a:hover {
-  text-decoration: underline;
-}
-
-
-.password-container {
-  position: relative;
-  margin-bottom: 1.5rem;
-}
-
-.toggle-eye-password {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-
-.eye-password-icon {
-  width: 2.0rem;
- 
-}
-
-
-.btn-newregister-form{
-  width: 100%;
-    height: 56px;
-    font-size: 18px;
-    text-decoration: none;
-    font-family: Roboto;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: 1.25px;
-    line-height: 24px;
-    text-transform: uppercase;
-    background: #f6921e;
-    color: #181818;
-    padding: 4px;
-    border-radius: 4px;
-    margin-bottom: 24px;
-}
-
-.btn-newregister-form:hover{
-    background: #323232;
-    border: 1px solid #595959!important;
-}
-
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #f6921e;
-}
-
-
-
-
-
-.navbar-newregister{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.navbar-newregister img{
-  width: 250px; 
-  height: auto; 
-}
-
-
-/* estilos de la validación */
-.error-message {
-  color: rgb(255, 255, 255);
-  font-size: 0.9em;
-  margin-top: 0.5em;
-}
-
-.form-control-newform.valid {
-  border-color: #047f14;
-}
-
-.form-control-newform.invalid {
-  border-color: #f6921e;
-}
-
-
-/* Checkbox */
-.check-text-newregister {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 0.85em;
-  color: #fff;
-}
-
-
-.check-text-newregister a{
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-}
-
-
-.login-link-newregister{
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-
-
-.login-link-newregister a{
-  color:#F6921E;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-}
-
-
 
 /* ESTILOS DEL PINCODE ================================= */
 
@@ -7790,9 +7544,6 @@ Ajustes Bancaya
   /* Cambia el color según tus preferencias */
 }
 
-
-
-
 /*End Thankyou page mvshub*/
 
 @media (max-width: 1299px) {
@@ -8646,7 +8397,15 @@ Ajustes Bancaya
   }
 }
 
-
+/* @media screen and (min-width: 462px) and (max-width: 767px) {
+   .red-square-movil p {
+    border-radius: 0rem 0rem 2rem 2rem;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    justify-self: center;
+  } 
+ 
+} */
 
 @media screen and (min-width: 462px) and (max-width: 767px) {
   #btnContratar {
@@ -9650,14 +9409,6 @@ Media queries anahí
   font-size: 20px;
 }
 
-.ahorroBtn{
-  background: linear-gradient(180deg, rgba(241, 103, 78, 1) 0%, rgba(240, 141, 38, 1) 100%);
-  border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
 .canales-vivo {
   font-family: "Roboto", sans-serif;
   font-size: 26px;
@@ -9971,105 +9722,6 @@ Media queries anahí
   /* Resplandor al enfocar el elemento */
 }
 
-
-
- /* Estilos Btn ReplayTV */
-  
-  
- .ReplayTV img{
-  width: 70px;
- }
- 
- 
- 
- 
- /* Estilos del switch */
- .switch-wrapper {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding: 5px 10px;
-   border-radius: 20px;
- }
-  
- .switch-wrapper .toggle-option {
-   color: #FFFFFF;
-   padding: 0 10px;
-   font-style: normal;
-   font-variant: normal;
-   font-weight: medium;
-   font-size: 17px;
-   line-height: 25px;
-   font-family: Avenir, sans-serif;
-   letter-spacing: 0px;
-   opacity: 1;
- }
-  
- .switch-wrapper .toggle-option.active {
-   color: #F67D10;
-   text-transform: uppercase;
-   text-decoration: underline;
- }
-  
- .toggle-container {
-   position: relative;
-   width: 50px;
-   height: 25px;
-   background-color: #FFFFFF;
-   border-radius: 25px;
-   margin: 0 10px;
-   cursor: pointer;
- }
-  
- input[type="checkbox"]#switch {
-   opacity: 0;
-   width: 0;
-   height: 0;
- }
-  
- 
- .toggle-container label {
-   cursor: pointer;
-   position: absolute;
-   top: 2px;
-   left: 2px;
-   width: 21px;
-   height: 21px;
-   background-color: #F67D10;
-   border-radius: 50%;
-   transition: 0.3s;
-   pointer-events: none;
- }
-  
- input:checked+label {
-   left: 27px;
- }
-  
- .content {
-   display: none;
- }
-  
- .content.active {
-   display: block;
- }
- 
-
- /* Live channels */
-
- .live-channels {
-  position: absolute;
-  top: 15px;
-  right: 10px;
-  background-color: #8148DD;
-  padding: 5px 15px;
-  border-radius: 50px;
-  font-size: 0.8rem;
-  color: #ffffff;
-}
-
-
-
-
 @media (min-width: 768px) {
   .container-promo {
     display: block; /* Se muestra en pantallas mayores a 768px */
@@ -10077,16 +9729,6 @@ Media queries anahí
 }
 /*RESPONSIVE PAQUETES*/
 @media screen and (max-width: 320px) {
-
-  .login-link-newregister {
-    margin-top: 20%;
-  
-}
-
-  .check-text-newregister {
-    font-size: 0.75em;
-}
-
   #adicional-scroll {
     max-height: 160px;
     overflow: auto;
@@ -10107,20 +9749,6 @@ Media queries anahí
   }
 }
 @media screen and (max-width: 425px) {
-
-  .login-link-newregister {
-    margin-top: 20%;
-  
-}
-
-  .form-container {
-    border: 0px!important;
-}
-
-.poppins-xb-newregister {
-  font-size: 1.8rem !important;
-}
-
   .container-platform {
     width: 290px !important;
     height: 100px !important;
@@ -10330,35 +9958,9 @@ Media queries anahí
   .cont-banner {
     max-width: 450px;
   }
-  .live-channels {
-    
-    top: -45px;
-    right: 50px;
-    background-color: #8148DD;
-    padding: 5px 15px;
-    border-radius: 50px;
-    font-size: 0.8rem;
-    color: #ffffff;
-    width: 75%;
-    margin: 3%;
-}
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
-
-  .form-container {
-    border: 0px!important;
-}
-
-.poppins-xb-newregister {
-  font-size: 2.3rem !important;
-  color: #f1f1f1 !important;
-}
-
-
-
-
   .AA_title-ingresar {
     font-size: 1.3em;
   }
@@ -10538,8 +10140,6 @@ Media queries anahí
   .radioPago {
     margin-left: 0;
   }
-
- 
 }
 @media screen and (max-width: 800px) {
   .ban-title-sushi {
@@ -10552,20 +10152,6 @@ Media queries anahí
     width: 83.33333333% !important;
     max-width: 83.33333333% !important;
   }
-}
-@media screen and (max-width: 1024px) {
-  .ahorroBtn {
-    font-size: 1.1rem;
-}
-  .form-container {
-    background-color: #181818;
-    border: 1px solid #323232;
-    padding: 0px;
-    border-radius: 16px;
-    box-shadow: 0 0 99px rgba(0, 0, 0, .4);
-    max-width: 100%;
-    margin: 0 auto;
-}
 }
 @media screen and (max-width: 1199px) {
   .scroll-indicator {
@@ -11681,100 +11267,4 @@ end EFECTO Scrroll calculadora - vista paquetes
 .modal-login-disney {
   background-color: #FFFFFF;
   border-radius: 25px;
-}
-
-.container-platform-nfl {
-  width: 290px;
-  height: auto;
-  background: white;
-  border: 2px solid #F5921E;
-  border-radius: 15px;
-}
-
-
-.option-container {
-  width: 100%;
-  padding: 5px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.option-label {
-  font-size: 15px;
-  cursor: pointer;
-  color: #000;
-}
-
-.align-left-nfl {
-  margin-left: 0px;
-}
-
-.radio-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-
-.radio-nfl {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.radio-custom {
-  width: 16px;
-  height: 16px;
-  border: 2px solid #F77E0B;
-  /* Borde personalizado */
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: border-color 0.3s ease;
-  margin-left: 10px;
-}
-
-
-/* Punto dentro del radio button cuando está seleccionado */
-.radio-custom::after {
-  content: '';
-  width: 8px;
-  height: 8px;
-  background-color: #F77E0B;
-  /* Color interno cuando está seleccionado */
-  border-radius: 50%;
-  transform: scale(0);
-  transition: transform 0.2s ease;
-}
-
-/* Mostrar el punto cuando está seleccionado */
-.radio-nfl:checked+.radio-custom::after {
-  transform: scale(1);
-}
-
-
-
-.platform-offer {
-  background-color: #E6E6E6;
-  /* Un gris claro, ajusta al color exacto que necesitas */
-  color: #333;
-  /* Un color de texto oscuro para contrastar con el fondo gris */
-  padding: 5px 15px;
-  /* Asegura que el texto esté centrado */
-  font-size: 0.9em;
-  /* Ajusta el tamaño del texto a tu preferencia */
-  border-top: 1px solid #CCCCCC;
-  /* Un borde superior para separar de la sección anterior si es necesario */
-  margin: -8px;
-  border-radius: 0 0 10px 10px;
-}
-
-.offer-detail {
-  border-radius: 0 0 0 8px;
-}
-.font-small{
-  object-fit: contain;
-  font-size: 0.637rem;
-  margin: 0;
 }

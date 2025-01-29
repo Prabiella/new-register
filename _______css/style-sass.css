@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background: radial-gradient(circle, #393939 0%, #1e1e1e 51%, black 100%); }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.75em;
+  color: #fff; }
+
+.header {
+  margin-top: 1.2rem; }
+
+.FrLogLogin {
+  display: block;
+  margin: 0 auto;
+  padding: 3% 0 5% 0;
+  width: 263px; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #fff; }
+
+.poppins {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #fff; }
+
+.InputClass {
+  font-size: 0.950em;
+  position: relative;
+  display: block;
+  color: #fff;
+  padding: 25px 0 10px 0;
+  margin-bottom: 1.5rem; }
+
+.InputClass input:invalid {
+  outline: none;
+  box-shadow: none; }
+
+.InputClass input {
+  padding: 10px 0 10px 0;
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 0.875em;
+  color: #fff;
+  border-bottom: 1px solid #9494A6;
+  outline: none;
+  background-color: transparent; }
+
+.InputClass .InputClass-label {
+  font-weight: 300;
+  position: absolute;
+  display: block;
+  top: 20px;
+  left: 0px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  pointer-events: none;
+  cursor: text;
+  font-size: 0.875em; }
+
+.InputClass input:invalid {
+  outline: none;
+  box-shadow: none; }
+
+.InputClass input:focus {
+  outline: none;
+  color: #fff;
+  padding-bottom: 8px;
+  border-bottom-width: 3px;
+  border-bottom-color: #F6921E; }
+
+.InputClass::after {
+  content: " ";
+  display: block;
+  color: #F16522;
+  font-size: 0.875em;
+  padding-top: 5px; }
+
+.InputClass input:focus ~ .InputClass-label {
+  font-size: 0.875em;
+  font-weight: 100;
+  color: #9494A6; }
+
+.Fr_RecuperaContra a {
+  font-style: italic;
+  font-size: 0.79rem;
+  color: #DDDDDD;
+  text-decoration: underline;
+  font-weight: 300; }
+
+#check1, #check6, #check6Mob {
+  height: 20px;
+  width: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 1px solid #34495E;
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 0.3s;
+  background-color: white;
+  cursor: pointer; }
+
+#check1:checked, #check6:checked, #check6Mob:checked {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  border: 0px;
+  background-color: #F77E0B;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/check-icn.svg);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.red-boton {
+  background: transparent linear-gradient(0deg, #f16522 0%, #f26c21 47%, #f6921e 100%) 0% 0% no-repeat padding-box;
+  color: #FFF;
+  border-radius: 50px;
+  height: 3em;
+  box-shadow: -1px 7px 5px -1px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: -1px 7px 5px -1px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: -1px 7px 5px -1px rgba(0, 0, 0, 0.69); }
+
+/*# sourceMappingURL=style-sass.css.map */
