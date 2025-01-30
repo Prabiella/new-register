@@ -2105,7 +2105,9 @@ select:-webkit-autofill:focus {
 }
 
 
-
+a.forgot-password-link.poppins.check-text-newregister{
+  color: #fff;
+}
 
 /* LABEL ======================================= */
 label.Fr_InfoCod {
