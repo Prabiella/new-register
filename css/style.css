@@ -10534,8 +10534,8 @@ Media queries anahí
   }
   .live-channels {
     
-    top: -45px;
-    right: 50px;
+    top: 0px;
+    right: 12px;
     background-color: #8148DD;
     padding: 5px 15px;
     border-radius: 50px;
@@ -10543,6 +10543,7 @@ Media queries anahí
     color: #ffffff;
     width: 75%;
     margin: 3%;
+    position: relative;
 }
 }
 
